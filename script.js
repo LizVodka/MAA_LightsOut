@@ -58,6 +58,7 @@ function kattintasesemeny() {
 function felad() {
   var on =  document.getElementsByClassName("felkapcsolva").length;
   alert("Feladom! "+on+" lámpa maradt felkapcsolva.");
+    retolt();
 }
 function retolt() {
   for(var i = 0; i < 25; i++) {
