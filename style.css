@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body {
+  background-color: darkolivegreen; 
+  text-align: center;
+}
+
+main {
+  background-color: whitesmoke;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding-top: 20px;
+}
+
+article {
+  display: grid;
+  grid-template-areas:
+      "d d d d d"
+      "d d d d d"
+      "d d d d d"
+      "d d d d d"
+      "d d d d d";
+  padding: 10px;
+  padding-right: 7px;
+  width: 215px;
+  margin: 0 auto;
+}
+
+div {
+  background-color: darkgreen;
+  grid-areas: d;
+  max-width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+div + div {
+  margin-right: 3px;
+  margin-bottom: 3px;
+}
+
+.felkapcsolva {
+  background-color: greenyellow;
+}
+
+footer {
+  padding: 30px;
+}
+
+.button {
+  background-color: darkgreen;
+  color: white;
+  padding: 5px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
